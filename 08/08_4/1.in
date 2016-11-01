@@ -1,0 +1,18 @@
+17
+insert ~~~~~~
+insert ~i
+insert ~~have
+insert ~~~a
+insert ~~~~pen
+print
+delete ~~~a
+insert ~~~an
+delete ~~~~pen
+insert ~~~~apple
+print
+find ~i
+delete ~i
+delete ~~have
+delete ~~~an
+insert ~~~~~pen
+print
