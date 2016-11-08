@@ -2,14 +2,17 @@
 from random import *
 n = 80000 # number
 q = 80000 #query
-fromchoice = 50000 # choice
-maxi = 2 ** 31 - 1 # max
+fromchoice = 60000 # choice
+maxi = 2 ** 31 # max
 mini = -1 * 2 ** 31 # min
 arr = []
 
 print n, q
-while len(set(arr)) != n:
-    arr.append(randrange(mini, maxi))
+while len(arr) != n:
+    t = randrange(mini, maxi)
+    if t in arr:
+        continue
+    arr.append(t)
 arr = sorted(arr)
 #for i in xrange(n):
     #arr.append(i - 2 ** 30)
