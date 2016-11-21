@@ -1,7 +1,7 @@
 #12_01 inputgen
 from random import randrange
 
-n, m = 400, 312 #n x m array
+n, m = 400, 499 #n x m array
 mm = 9999
 
 print n, m
