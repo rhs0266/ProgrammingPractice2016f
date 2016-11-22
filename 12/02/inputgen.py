@@ -12,3 +12,4 @@ print random.randrange(1, mm),
 for j in xrange(m):
     print random.randrange(mm),
 print
+#hello there~
